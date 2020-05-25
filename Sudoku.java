@@ -33,13 +33,8 @@ class Sudoku{
 				
 				if(added)printBoard();
 				if(!inComplete())return;
-			}while(added);
-			
-			
-			
-			
-
-			System.out.println("Using uniqueCandidate");
+			}while(added);	
+	
 			uniqueCandidate();			
 			add();
 			
